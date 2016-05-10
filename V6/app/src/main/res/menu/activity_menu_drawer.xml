@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <!-- Add menu button -->
+        <item
+            android:id="@+id/nav_home"
+
+            android:title="Accueil" />
+
+        <item
+            android:id="@+id/nav_planning"
+
+            android:title="Planning" />
+        <item
+            android:id="@+id/nav_data"
+
+            android:title="Temps réel" />
+
+        <!--android:icon = "l'icon qu'on veut mettre "-->
+        <item
+            android:id="@+id/nav_gallery"
+
+            android:title="Détentes" />
+
+        <item
+            android:id="@+id/nav_quizz"
+
+            android:title="Quizz" />
+
+        <item
+            android:id="@+id/nav_signout"
+
+            android:title="Déconnexion" />
+    </group>
+
+
+</menu>
