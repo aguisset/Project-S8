@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:background="#64A8D1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:weightSum="1">
+
+        <ImageButton android:src="@drawable/h2h_button"
+            android:id="@+id/IBlogo_button"
+            android:background="@null"
+            android:layout_width="647dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.11" />
+
+        <TextView
+            android:layout_width = "fill_parent"
+            android:layout_height= "wrap_content"
+            android:layout_centerInParent ="true"
+            android:text="@string/welcome"
+            android:textColor= "#FF7800"
+            android:textSize = "30dp"
+            android:gravity="center_horizontal"
+            
+            />
+
+        <TextClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textClock"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.11" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id ="@+id/Bdata"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:text = "Données"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id ="@+id/BCapteurs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:text = "Capteurs"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id ="@+id/BPlanning"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:text = "Planning"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+           android:id ="@+id/BLogout"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="24dp"
+           android:layout_marginBottom="24dp"
+           android:padding="12dp"
+           android:text = "logout"
+           />
+
+
+
+    </LinearLayout>
+</ScrollView>
