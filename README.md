@@ -1,5 +1,7 @@
-# Projet-S8
+# Projet S8
 
-Developement d'une application sécurisée pour aide aux patients atteint de la maladie d'Alzheimer.
-TEST JULIEN
-TEST ELRIC
+This is the Github repository of the S8 project.
+
+Mostly a way to keep track of the code so nothing really done here :)
+
+Collaborators: Julien Lafargue, Abdoul W. Guisset
